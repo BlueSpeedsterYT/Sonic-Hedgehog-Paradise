@@ -3,10 +3,10 @@
 globalvar delta;
 delta = 1;
 
-ideal_width = 640;
-ideal_height = 360;
+ideal_width = 1280/3;
+ideal_height = 240;
 
-zoom = 2;
+zoom = 3;
 //max_zoom = 1;
 //if(window_set_fullscreen(false))
 //{
@@ -26,10 +26,10 @@ timer = 0;
 
 debug_gui_check = DEV_MODE;
 
-inverse = false;
+//inverse = false;
 
 //capture
-screenshot = 0;
+//screenshot = 0;
 
 //ideal_width = round(ideal_height*aspect_ratio);
 //ideal_height = round(ideal_width/aspect_ratio);
@@ -64,9 +64,15 @@ for(var i = 1; i <= room_last; i += 1)
 {
     if room_exists(i)
     {
-        //if(room != rm_menu)
-        room_set_view(i,0,true,0,0,ideal_width,ideal_height,0,0,ideal_width,ideal_height,0,0,0,0,-1);
-        room_set_view_enabled(i,true);
+        if(room != (rm_menu || rm_splash || rm_demo_intro))
+		{
+			room_set_view(i,0,true,0,0,ideal_width,ideal_height,0,0,ideal_width,ideal_height,0,0,0,0,-1);
+		}
+		else
+		{
+			room_set_view(i,0,true,0,0,640,360,0,0,640,360,0,0,0,0,-1);
+		}
+		room_set_view_enabled(i,true);
     }
 }
 
@@ -79,7 +85,7 @@ surface_resize(application_surface,display_width,display_height);
 
 alarm[0]=1;
 room_goto(room_next(room));
-//zoom += 1;
+zoom += 1;
 
 fullscreen_check = false;
 //window_set_fullscreen(true);

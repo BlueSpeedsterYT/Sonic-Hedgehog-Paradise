@@ -1,6 +1,6 @@
 {
   "ConfigValues": {
-    "Development_Build": {"option_linux_resize_window":"true","option_linux_sync":"true",},
+    "Development_Build": {"option_linux_resize_window":"true","option_linux_sync":"true","option_linux_long_desc":"It's a Sonic fan game... now on Linux!","option_linux_short_desc":"Sonic - Hedge-Para","option_linux_homepage":"","option_linux_display_name":"Sonic: Hedgehog Paradise",},
   },
   "option_linux_display_name": "SodaSonic",
   "option_linux_version": "1.0.0.0",

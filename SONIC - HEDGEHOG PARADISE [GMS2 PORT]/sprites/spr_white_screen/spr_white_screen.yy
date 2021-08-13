@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "HUD Elements",
-    "path": "folders/Sprites/HUD Sprites/HUD Elements.yy",
+    "name": "Title Card",
+    "path": "folders/Sprites/HUD Sprites/HUD Elements/Title Card.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_white_screen",

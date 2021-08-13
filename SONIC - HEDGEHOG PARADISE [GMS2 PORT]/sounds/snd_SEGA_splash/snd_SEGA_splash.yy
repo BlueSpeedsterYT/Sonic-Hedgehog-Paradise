@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_SEGA_splash.mp3",
-  "duration": 2.533063,
+  "duration": 2.528062,
   "parent": {
     "name": "Splash Screens",
     "path": "folders/Sounds/SFX/Common/Splash Screens.yy",

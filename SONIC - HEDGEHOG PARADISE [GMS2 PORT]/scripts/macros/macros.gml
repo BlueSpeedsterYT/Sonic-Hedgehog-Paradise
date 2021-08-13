@@ -99,7 +99,7 @@ function macros() {
 #macro Development_Build:DEV_MODE true
 #macro Development_Build:FIRST_ROOM rm_tests
 #macro Development_Build:HUD_TYPE 1
-
-
+#macro VIEW_X __view_get(e__VW.XView, 0)
+#macro VIEW_Y __view_get(e__VW.YView, 0)
 
 }

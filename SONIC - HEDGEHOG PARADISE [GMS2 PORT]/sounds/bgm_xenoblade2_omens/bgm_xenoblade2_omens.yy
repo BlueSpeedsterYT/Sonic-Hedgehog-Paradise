@@ -1,5 +1,5 @@
 {
-  "compression": 3,
+  "compression": 0,
   "volume": 1.0,
   "preload": true,
   "bitRate": 512,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "bgm_xenoblade2_omens",
-  "duration": 193.82634,
+  "duration": 193.821335,
   "parent": {
     "name": "Beta",
     "path": "folders/Sounds/BGM/Zones/Beta.yy",

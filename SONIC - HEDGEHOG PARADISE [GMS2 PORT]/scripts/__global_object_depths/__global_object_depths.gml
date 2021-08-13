@@ -28,12 +28,12 @@ function __global_object_depths() {
 	global.__objectDepths[20] = 0; // obj_collision_4
 	global.__objectDepths[21] = 0; // obj_collision_5
 	global.__objectDepths[22] = 0; // obj_collision_6
-	global.__objectDepths[23] = 0; // obj_layer0_1
-	global.__objectDepths[24] = 0; // obj_layer0_2
-	global.__objectDepths[25] = 0; // obj_layer1_1
-	global.__objectDepths[26] = 0; // obj_layer1_2
+	global.__objectDepths[23] = -1; // obj_layer0_1
+	global.__objectDepths[24] = -1; // obj_layer0_2
+	global.__objectDepths[25] = 1; // obj_layer1_1
+	global.__objectDepths[26] = 1; // obj_layer1_2
 	global.__objectDepths[27] = 0; // obj_platform_1
-	global.__objectDepths[28] = 0; // ctr_hud
+	global.__objectDepths[28] = -80; // ctr_hud
 	global.__objectDepths[29] = 0; // obj_display_manager
 	global.__objectDepths[30] = 0; // ctr_audio
 	global.__objectDepths[31] = 0; // ctr_level
@@ -58,6 +58,7 @@ function __global_object_depths() {
 	global.__objectDepths[50] = -99999999; // obj_fade_to_slice_white
 	global.__objectDepths[51] = -99999999; // obj_fade_to
 	global.__objectDepths[52] = -99999999; // obj_fade_to_white
+	global.__objectDepths[53] = -99999999; // ctr_title_card
 
 
 	global.__objectNames[0] = "par_character";
@@ -113,6 +114,7 @@ function __global_object_depths() {
 	global.__objectNames[50] = "obj_fade_to_slice_white";
 	global.__objectNames[51] = "obj_fade_to";
 	global.__objectNames[52] = "obj_fade_to_white";
+	global.__objectNames[53] = "ctr_title_card"
 
 
 	// create another array that has the correct entries

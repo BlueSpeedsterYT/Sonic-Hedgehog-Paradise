@@ -3,6 +3,11 @@ if phase == 1 && __alpha < 1 && scale_x > 9 && scale_y < 3
     __alpha += 0.1
     scale_x -= 0.1 
     scale_y += 0.1
+	if(scale_x < 9 && scale_y > 3)
+	{
+		scale_x = 9 
+		scale_y = 3
+	}
     if __alpha >= 1
     {
         phase = 2

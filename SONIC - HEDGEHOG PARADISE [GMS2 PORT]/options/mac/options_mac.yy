@@ -1,6 +1,6 @@
 {
   "ConfigValues": {
-    "Development_Build": {"option_mac_enable_retina":"true","option_mac_resize_window":"true","option_mac_vsync":"true",},
+    "Development_Build": {"option_mac_enable_retina":"true","option_mac_resize_window":"true","option_mac_vsync":"true","option_mac_output_dir":"~/GameMaker-Studio/SonicHedgePara_MACOS","option_mac_app_category":"Games - Action Games",},
   },
   "option_mac_display_name": "Sonic: Hedgehog Paradise",
   "option_mac_app_id": "",

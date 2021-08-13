@@ -18,7 +18,9 @@ if (os_browser == browser_not_a_browser)
 {
     if (DEV_MODE == true)
     {
-        if keyboard_check_pressed(vk_f1)
+        if !instance_exists(ctr_dev_menu)
+			instance_create(0,0, ctr_dev_menu)
+		if keyboard_check_pressed(vk_f1)
         {
             game_restart();
         }
@@ -59,13 +61,15 @@ if (os_browser == browser_not_a_browser)
                 window_set_fullscreen(false);
             }
             window_set_size(display_width,display_height);
+			surface_resize(application_surface,display_width,display_height);
             alarm[0] = 1;
         }
         else
         {
-            window_set_fullscreen(true);
             window_set_size(display_width,display_height);
-            alarm[0] = 1;
+			surface_resize(application_surface,display_width,display_height);
+            window_set_fullscreen(true);
+			alarm[0] = 1;
         }
     }
     
@@ -85,7 +89,9 @@ else
 {
     if (DEV_MODE == true)
     {
-        if keyboard_check_pressed(vk_f5)
+		if !instance_exists(ctr_dev_menu)
+			instance_create(0,0, ctr_dev_menu)
+		if keyboard_check_pressed(vk_f5)
         {
             game_restart();
         }
@@ -126,12 +132,14 @@ else
                 window_set_fullscreen(false);
             }
             window_set_size(display_width,display_height);
+			surface_resize(application_surface,display_width,display_height);
             alarm[0] = 1;
         }
         else
         {
             window_set_fullscreen(true);
             window_set_size(display_width,display_height);
+			surface_resize(application_surface,display_width,display_height);
             alarm[0] = 1;
         }
     }
@@ -200,7 +208,7 @@ else
 //	}
 //}
 
-if (os_browser == browser_not_a_browser) && keyboard_check(vk_escape)
+if (os_browser == browser_not_a_browser) && keyboard_check(vk_escape) && global.DebugMode == false
     game_end()
 
 /* */

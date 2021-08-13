@@ -1,6 +1,5 @@
-function __view_get(argument0, argument1) {
-	var __prop = argument0;
-	var __index = argument1;
+function __view_get(__prop, __index) {
+
 
 	var __res = -1;
 

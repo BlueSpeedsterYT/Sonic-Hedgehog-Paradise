@@ -2,7 +2,7 @@
   "ConfigValues": {
     "Showcase_Demo": {"option_windows_icon":"${options_dir}/windows/runner_icon.ico",},
     "SAGE_Demo": {"option_windows_icon":"${options_dir}/windows/runner_icon.ico",},
-    "Development_Build": {"option_windows_icon":"${options_dir}/windows/runner_icon.ico","option_windows_resize_window":"true","option_windows_use_splash":"false",},
+    "Development_Build": {"option_windows_icon":"${options_dir}/windows/runner_icon.ico","option_windows_resize_window":"false","option_windows_use_splash":"false",},
   },
   "option_windows_display_name": "SONIC: HEDGEHOG PARADISE",
   "option_windows_executable_name": "Sonic - Hedgehog Paradise",

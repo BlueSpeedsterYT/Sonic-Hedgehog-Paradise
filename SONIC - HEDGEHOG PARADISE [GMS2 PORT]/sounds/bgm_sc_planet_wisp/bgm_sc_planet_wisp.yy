@@ -1,9 +1,9 @@
 {
-  "compression": 3,
+  "compression": 0,
   "volume": 1.0,
   "preload": true,
-  "bitRate": 256,
-  "sampleRate": 44100,
+  "bitRate": 512,
+  "sampleRate": 48000,
   "type": 1,
   "bitDepth": 1,
   "audioGroupId": {
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "bgm_sc_planet_wisp",
-  "duration": 259.636017,
+  "duration": 259.631,
   "parent": {
     "name": "Planet Wisp",
     "path": "folders/Sounds/BGM/Zones/Planet Wisp.yy",

@@ -1,17 +1,17 @@
 {
-  "compression": 3,
+  "compression": 0,
   "volume": 1.0,
   "preload": true,
-  "bitRate": 192,
+  "bitRate": 512,
   "sampleRate": 44100,
-  "type": 0,
+  "type": 1,
   "bitDepth": 1,
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "bgm_ygo_free_duel",
-  "duration": 141.283661,
+  "duration": 141.278671,
   "parent": {
     "name": "Beta",
     "path": "folders/Sounds/BGM/Zones/Beta.yy",
